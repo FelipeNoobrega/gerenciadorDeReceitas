@@ -1,0 +1,92 @@
+.ReactModal__Content {
+    width: 400px;
+    height: 400px;
+}
+.form {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form input {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    width: 100%;
+  }
+  
+  .form button {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #3B5AA9;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .form button:hover {
+    background-color: #2B3F73;
+  }
+  
+  /* Estilo para o CardReceita */
+  .card {
+    width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    padding: 20px;
+    margin: 10px;
+    background-color: #fff;
+  }
+  
+  .card h3 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .card h4 {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+  
+  .card ul {
+    margin: 10px 0;
+    padding: 0;
+  }
+  
+  .card li {
+    list-style: none;
+    margin: 5px 5px;
+  }
+  
+  .card p {
+    margin: 10px 0;
+  }
+  
+  .card-buttons {
+    display: flex;
+    width: 40px;
+    align-items: end;
+    justify-content: space-between;
+  }
+  
+  .card-buttons button {
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 2px;
+    background-color: #3B5AA9;
+    color: #e9eaed;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .card-buttons button:hover {
+    background-color: #2B3F73;
+  }
